@@ -1,15 +1,15 @@
-export default function Foto_gallery(){
-    return(
-        <div id="foto_gallery">
-            <div class="foto">
-                <div class="left" id="left"></div>
-                <div class="foto_window" id="foto_window"></div>
-                <div class="right" id="right"></div>
-            </div>
+// export default function Foto_gallery(){
+//     return(
+//         <div id="foto_gallery">
+//             <div class="foto">
+//                 <div class="left" id="left"></div>
+//                 <div class="foto_window" id="foto_window"></div>
+//                 <div class="right" id="right"></div>
+//             </div>
             
-        </div>
+//         </div>
         
-    )
+//     )
 //     var left=document.getElementById("left")
 // var foto_window=document.getElementById("foto_window")
 // var right=document.getElementById("right")
@@ -34,4 +34,3 @@ export default function Foto_gallery(){
 //         foto_window.style.backgroundImage=`url(../img/${img[i]})`
 //     }
 // }
-}

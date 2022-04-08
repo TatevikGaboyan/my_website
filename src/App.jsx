@@ -1,6 +1,6 @@
 import './App.css';
-// import Menu from "./Component/menu"
-import Menu_1 from "./Component/menu_1"
+import React from 'react';
+import Menu from "./Component/menu"
 import Home from "./Component/home"
 import About from "./Component/about"
 import Awards from "./Component/awards"
@@ -10,6 +10,7 @@ import Events from "./Component/events"
 import Offers from "./Component/offers"
 import Contacts from "./Component/contacts"
 import Footer from "./Component/footer"
+import Layout from './Component/layout'
 // import Body from "./Component/body"
 // import Foto_gallery from "./Component/foto_gallery"
 // import HomeIcon from '@mui/icons-material/Home';
@@ -20,21 +21,8 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import Layout from './Component/layout';
 
 
-// export default function A(){
-//   return(
-//     <div>
-//       <Menu/>
-//       <Body/>
-//       <Foto_gallery/>
-
-
-//     </div>
-//   )
-
-// }
 
 export default function I() {
   return (
@@ -57,4 +45,30 @@ export default function I() {
 }
 
 
+// export default function A(){
+//   return(
+//     <div>
+//       <Menu/>
+//       <Layout/>
+//       <Home/> 
+//       <About/>
+//       <Awards/>
+//       <Reviews />
+//       <Timetable />
+//       <Events />
+//       <Offers />
+//       <Contacts />
+//       <Footer/>
+//     </div>
+//   )
+// }
 
+// export default function B(){
+//   return(
+//     <div>
+//       <h1>Hello</h1>
+//       {/* <Link to='hello'>Hello</Link>
+//    */}
+//     </div>
+//   )
+// }

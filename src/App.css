@@ -9,33 +9,36 @@ ul{
 	list-style: none;
 	background-color: black;
 	overflow: hidden;
+	width: 100%;
+	
 }
 
 ul li{
 	float: left;
-  min-width: 150px;
+	min-width: 150px;
 }
 
-ul li a{
+ul li Link{
 	text-decoration: none;
 	color: white;
 	padding: 15px;
 	font-size: 25px;
 	display: block;
-	font-family: 'Ephesis', cursive;
-font-family: 'Stick No Bills', sans-serif;
+	font-family: cursive;
+	/* font-family: 'Stick No Bills', sans-serif; */
 }
 
-ul li a:hover{
+ul li Link:hover{
 	color: gray;
 	background-color: aqua;
 	border-radius: 25%;
 	transition: 2s;
 }
 
-i{
+
+/* i{
 	padding-right: 5px;
-}
+} */
 
 .div_1{
 	width: 150px;
@@ -44,6 +47,10 @@ i{
 	position: absolute;
 	min-width: 100px;
 	display: none;
+}
+ul .li1{
+	float: left;
+	min-width: 150px;
 }
 .li1:hover .div_1{
 	display: block;
@@ -227,27 +234,27 @@ h1{
 }
 .item1{
 	transform: rotateY(0deg) translateZ(250px);
-	background-image: url('1.jpg');
+	background-image: url(image/1.jpg);
 }
 .item2{
 	transform: rotateY(60deg) translateZ(250px);
-	background-image: url('2.jpg');
+	background-image: url(image/2.jpg);
 }
 .item3{
 	transform: rotateY(120deg) translateZ(250px);
-	background-image: url('3.jpg');
+	background-image: url(image/3.jpg);
 }
 .item4{
 	transform: rotateY(180deg) translateZ(250px);
-	background-image: url('4.jpg');
+	background-image: url(image/4.jpg);
 }
 .item5{
 	transform: rotateY(240deg) translateZ(250px);
-	background-image: url('5.jpg');
+	background-image: url(image/5.jpg);
 }
 .item6{
 	transform: rotateY(300deg) translateZ(250px);
-	background-image: url('6.jpg');
+	background-image: url(image/6.jpg);
 }
 .next, .prev{
 	color: #444;

@@ -1,13 +1,13 @@
+import React from 'react';
 import { Outlet } from "react-router-dom";
 import Footer from "./footer";
-import Menu_1 from "./menu_1";
+import Menu from "./menu";
 
 export default function Layout() {
     return (
         <div>
-            <Menu_1 />
+            <Menu />
             <Outlet />
-            {/* <div className="home"></div> */}
             <Footer />
         </div>
 
